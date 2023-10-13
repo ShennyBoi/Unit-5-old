@@ -1,0 +1,70 @@
+:root {
+    --colour-1: #119DA4;
+    --colour-2: #0C7489;
+    --colour-3: #13505B;
+    --colour-4: #040404;
+    --colour-5: #D7D9CE;
+    --colour-6: #888888;
+    --border-rounding: 6px;
+}
+
+body {
+    background-color: var(--colour-5);
+    margin: 0;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%
+}
+
+.nav-back,
+.nav-navigation,
+.nav-profile {
+    width: calc(100%/3);
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-profile {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav-navigation,
+.nav-back {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-button {
+    text-decoration: none;
+    border: none;
+    background-color: var(--colour-5);
+    font-size: 30px;
+    cursor: default;
+    border-radius: var(--border-rounding);
+}
+
+.nav-button:hover {
+    text-decoration: underline;
+}
+
+.logo-div {
+    border: 2px solid transparent;
+}
+
+.logo-div:hover {
+        border: 2px solid var(--colour-6);
+    }

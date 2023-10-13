@@ -1,0 +1,40 @@
+/* Specific styling for index page*/
+body {
+    background-image: url("../assets/AbstractBackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.title {
+    background: var(--colour-6);
+    opacity: 0.5;
+    border: transparent 3px;
+    border-radius: var(--border-rounding);
+}
+
+.account-buttons {
+    border: solid var(--colour-4) 2px;
+    padding-top: 10px;       /*just top padding*/
+    padding-right: 10px;    /*just right padding*/
+    padding-bottom: 10px;   /*just bottom padding*/
+    padding-left: 10px;     /*just left padding*/
+    border-radius: var(--border-rounding);
+}
+
+.normal-button {
+    border: none;
+    background-color: var(--colour-1);
+    height: 40px;
+    border-radius: var(--border-rounding);
+}
+
+/*
+.button:hover {
+    
+}
+
+.account-button:hover {
+
+}
+*/
